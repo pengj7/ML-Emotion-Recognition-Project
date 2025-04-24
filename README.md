@@ -72,4 +72,5 @@ Instructions:
 
 
 Results and Findings
+
 It is possible the validation set does not possess enough data since the output accuracy of training and validation data demonstrated overfitting. While the training set is able to reach accuracy of 90%, validation set is only able to reach a max accuracy of 60%. This overfitting could potentially be resolved by physical collection of more unaugmented validation data.

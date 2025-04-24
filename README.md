@@ -41,6 +41,7 @@ Instructions:
 10. establish training set and testing set by storing the corresponding paths into variables train_set and test_set. Corresponding folders are listed below in 10.1
 
 10.1. training set: /content/face-expression-recognition-dataset/images/train
+      
       testing set: /content/face-expression-recognition-dataset/images/validation
 
 11. initiate dataframe function

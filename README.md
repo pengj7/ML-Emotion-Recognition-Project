@@ -11,7 +11,8 @@ Desired output is accurate depiction of emotion and ability to differentiate bet
 
 Datasets:
 Face expression recognition dataset from Kaggle by Jonathan Oheix
-https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset/data 
+
+      https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset/data 
 
 
 Model and Method Overview
@@ -40,7 +41,9 @@ Instructions:
 9. import shutil and delete extra redundant folder using shutil.rmtree. The location for the redundant folder is /content/face-expression-recognition-dataset/images/images
 10. establish training set and testing set by storing the corresponding paths into variables train_set and test_set. Corresponding folders are listed below in 10.1
 
-10.1. training set: /content/face-expression-recognition-dataset/images/train
+10.1. 
+      
+      training set: /content/face-expression-recognition-dataset/images/train
       
       testing set: /content/face-expression-recognition-dataset/images/validation
 
@@ -54,17 +57,19 @@ Instructions:
 18. from tqdm.notebook import tqdm and from keras.preprocessing.image import load_img
 19. initiate the extract_features function
 20. using the extract_features function, extract features from training and testing dataframes
-21. import necessary components for neural network, list of all requirements are shown below
+21. import necessary components for neural network, list of all requirements are shown below in 21.1
 
-    from keras.utils import to_categorical
+21.1.
 
-    from keras.preprocessing.image import load_img
+      from keras.utils import to_categorical     
 
-    from keras.models import Sequential
+      from keras.preprocessing.image import load_img
 
-    from keras.layers import Dense, Conv2D, Dropout, Flatten, MaxPooling2D
+      from keras.models import Sequential
 
-    from keras.layers import BatchNormalization
+      from keras.layers import Dense, Conv2D, Dropout, Flatten, MaxPooling2D
+
+      from keras.layers import BatchNormalization
 
 23. normalize the data by dividing the training and testing features by max pixel density value
 24. import LabelEncoder from sklearn.preprocessing and utilize to fit labels for training set

@@ -54,21 +54,22 @@ Instructions:
 21. import necessary components for neural network, list of all requirements are shown below
 
     from keras.utils import to_categorical
+
     from keras.preprocessing.image import load_img
+
     from keras.models import Sequential
+
     from keras.layers import Dense, Conv2D, Dropout, Flatten, MaxPooling2D
-    import os
-    import pandas as pd
-    import numpy as np
+
     from keras.layers import BatchNormalization
 
-22. normalize the data by dividing the training and testing features by max pixel density value
-23. import LabelEncoder from sklearn.preprocessing and utilize to fit labels for training set
-24. transform label for training and testing set using Encoder.transform
-25. convert data to numerical matrix using to_categorical
-26. initiate convolutional neural network
-27. compile the model
-28. fit the training and testing data to the model
+23. normalize the data by dividing the training and testing features by max pixel density value
+24. import LabelEncoder from sklearn.preprocessing and utilize to fit labels for training set
+25. transform label for training and testing set using Encoder.transform
+26. convert data to numerical matrix using to_categorical
+27. initiate convolutional neural network
+28. compile the model
+29. fit the training and testing data to the model
 
 
 Results and Findings

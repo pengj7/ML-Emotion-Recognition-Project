@@ -39,8 +39,10 @@ Instructions:
 8. when prompted enter the username and key from Kaggle
 9. import shutil and delete extra redundant folder using shutil.rmtree. The location for the redundant folder is /content/face-expression-recognition-dataset/images/images
 10. establish training set and testing set by storing the corresponding paths into variables train_set and test_set. Corresponding folders are listed below in 10.1
+
 10.1. training set: /content/face-expression-recognition-dataset/images/train
       testing set: /content/face-expression-recognition-dataset/images/validation
+
 11. initiate dataframe function
 12. import pandas as pd and os
 13. establish training and testing dataframes
